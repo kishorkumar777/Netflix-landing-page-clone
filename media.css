@@ -1,0 +1,167 @@
+
+
+@media screen and (max-width:1250px) {
+   
+
+   
+    .hero{
+        height:89%;
+    }
+
+    .sec-text :nth-child(1) {
+    
+        font-size: 45px;
+    }
+
+
+
+    .first,.second,.third,.fourth{
+        flex-wrap: wrap;
+        gap:40px;
+    }
+
+    
+
+    .sec-text{
+        text-align: center;
+    }
+
+    .foot {
+        gap: 125px;
+    }
+}
+
+
+@media screen and (max-width:890px){
+    .foot{
+       gap:75px;
+    }
+
+    .hero > :nth-child(1) {
+        font-size: 38px;
+    }
+
+    .sec-text :nth-child(1){
+        font-size: 33px;
+    }
+    .faq h2{
+        font-size: 45px;
+    }
+    .faq p {
+        font-size: 18px;
+       
+    }
+    .upper-foot {
+    
+        padding: 30px 44px;
+    }
+    .foot-lang {
+        padding: 40px 5px;
+    }
+   
+    .company {
+ 
+        padding: 20px 45px;
+    }
+   
+   }
+
+   
+@media screen and (max-width:710px){
+ 
+    .hero > :nth-child(1) {
+        font-size: 37px;
+    }
+
+    .sec-text :nth-child(1) {
+        font-size: 33px;
+    }
+    .faq h2{
+        font-size: 44px;
+    }
+
+    .faq p{
+        font-size:17px;
+    }
+
+    .upper-foot {
+      
+        padding: 30px 43px;
+    }
+
+    .foot {
+        gap: 60px;
+    }
+
+    .foot-lang {
+        padding: 40px 15px;
+    }
+
+    .company {
+       
+        padding: 20px 60px;
+    }
+   
+   
+   }
+
+   @media screen and (max-width:680px){
+
+    .hero > :nth-child(1) {
+        font-size: 33px;
+    }
+    .hero > :nth-child(3) {
+      
+        font-size: 18px;
+      
+    }
+    .sec-text :nth-child(1) {
+        font-size: 29px;
+    }
+
+    .faq h2 {
+        font-size: 39px;
+    }
+    .faq p {
+        font-size: 15px;
+    }
+    .large-btn-red {
+        font-size: 20px;
+    }
+    .foot {
+        gap: 40px;
+    }
+    .sec-text :nth-child(2) {
+        font-size: 19px;
+    }
+ 
+   }
+
+
+   @media screen and (max-width:630px){
+
+    .main {
+       
+        background-size: max(1400px,100vw);
+        width: 101vw;
+    }
+
+    nav {
+        max-width: 85vw;
+     
+    }
+    .main .box {
+
+        width: 101vw;
+        
+    }
+    .hero {
+        height: 88%;
+    }
+    .faq h2 {
+        font-size: 38px;
+    }
+   
+   }
+
+  
